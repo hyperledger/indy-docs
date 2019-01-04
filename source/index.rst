@@ -13,7 +13,7 @@ This is currently just a prototype of our proposed Indy documentation library. P
 
 Hyperledger Indy provides tools, libraries, and reusable components for providing digital identities rooted on blockchains or other distributed ledgers so that they are interoperable across administrative domains, applications, and any other silo.
 
-If you are a developer, begin your journey in our `getting-started guide <https://indy.readthedocs.io/projects/sdk/en/latest/getting-started/getting-started.html>`_.
+If you are a developer, begin your journey in our `getting-started guide <https://indy.readthedocs.io/projects/sdk/en/latest/docs/getting-started/index.html>`_.
 
 Key Characteristics
 -------------------
