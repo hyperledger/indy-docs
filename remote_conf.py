@@ -46,14 +46,14 @@ def generate_sidebar(conf, conf_api):
         if conf_api == 'indy':
             args = desc,  link
         else:
-            args = desc, 'https://indy.readthedocs.io/en/%s/%s.html' % (version, link)
+            args = desc, 'https://hyperledger-indy.readthedocs.io/en/%s/%s.html' % (version, link)
             
         lines.append('    %s <%s>' % args)
 
     def write_subproject(project, desc, link):
         if project != conf_api:
             args = desc, project, version, link
-            lines.append('    %s <https://indy.readthedocs.io/projects/%s/en/%s/%s.html>' % args)
+            lines.append('    %s <https://hyperledger-indy.readthedocs.io/projects/%s/en/%s/%s.html>' % args)
         else:
             lines.append('    %s <%s>' % (desc, link))
     
@@ -74,10 +74,10 @@ def generate_sidebar(conf, conf_api):
 
 def get_intersphinx_mapping(version):
     return {
-        'indy': ('http://indy.readthedocs.io/en/%s/' % version, None),
+        'indy': ('http://hyperledger-indy.readthedocs.io/en/%s/' % version, None),
         'indy-sdk': ('http://indy-sdk.readthedocs.io/en/%s/' % version, None),
         'indy-node': ('http://indy-node.readthedocs.io/en/%s/' % version, None),
         'indy-agent': ('http://indy-agent.readthedocs.io/en/%s' % version, None),
         'indy-plenum': ('http://indy-plenum.readthedocs.io/en/%s' % version, None),
-        'indy-hipe': ('http://hipe.readthedocs.io/en/%s' % version, None),
+        'indy-hipe': ('http://indy-hipe.readthedocs.io/en/%s' % version, None),
     }
