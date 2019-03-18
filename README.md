@@ -1,7 +1,7 @@
 # Documentation README
-Check out the indy docs at http://indy.readthedocs.io/projects/docs
+Check out the indy docs at http://hyperledger-indy.readthedocs.io/
 
-Learn more about how our docs are built and maintained at http://indy.readthedocs.io/en/latest/docs.html
+Learn more about how our docs are built and maintained at http://hyperledger-indy.readthedocs.io/en/latest/docs.html
 
 ## How to Add Documentation
 For new features and pull requests, maintainers should make sure that the **contributor has added an explanation for their changes in the docs folder before merging the PR.**

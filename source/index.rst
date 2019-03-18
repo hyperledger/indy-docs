@@ -3,12 +3,6 @@ Hyperledger Indy
 
 .. image:: https://raw.githubusercontent.com/hyperledger/indy-node/master/collateral/logos/indy-logo.png
 
-.. toctree:: 
-   :caption: Indy
-   :hidden:
-
-   docs.md
-
 Hyperledger Indy provides tools, libraries, and reusable components for providing digital identities rooted on blockchains or other distributed ledgers so that they are interoperable across administrative domains, applications, and any other silo.
 
 If you are a developer, begin your journey in our `getting-started guide <https://indy.readthedocs.io/projects/sdk/en/latest/docs/getting-started/index.html>`_.
@@ -40,5 +34,9 @@ Our Repositories
     * `indy-hipe <https://github.com/hyperledger/indy-hipe>`_
     * `indy-crypto <https://github.com/hyperledger/indy-crypto>`_
 
+.. toctree:: 
+   :caption: Indy
+   :hidden:
 
+   docs.md
 
