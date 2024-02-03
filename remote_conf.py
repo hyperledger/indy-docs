@@ -64,7 +64,7 @@ def generate_sidebar(conf, conf_api):
     toctree('Repositories', 2)
     write_subproject('node', 'Node', 'index')
     write_subproject('plenum', 'Plenum', 'index')
-    write_subproject('hipe', 'Hipe', 'text/index')
+    write_subproject('hipe', 'HIPE', 'text/index')
 
     endl()
 
