@@ -62,9 +62,7 @@ def generate_sidebar(conf, conf_api):
     write_item('Introduction', 'index')
 
     toctree('Repositories', 2)
-    write_subproject('sdk', 'SDK', 'docs/index')
     write_subproject('node', 'Node', 'index')
-    write_subproject('agent', 'Agent', 'index')
     write_subproject('plenum', 'Plenum', 'index')
     write_subproject('hipe', 'Hipe', 'text/index')
 
@@ -75,9 +73,7 @@ def generate_sidebar(conf, conf_api):
 def get_intersphinx_mapping(version):
     return {
         'indy': ('http://hyperledger-indy.readthedocs.io/en/%s/' % version, None),
-        'indy-sdk': ('http://indy-sdk.readthedocs.io/en/%s/' % version, None),
         'indy-node': ('http://indy-node.readthedocs.io/en/%s/' % version, None),
-        'indy-agent': ('http://indy-agent.readthedocs.io/en/%s' % version, None),
         'indy-plenum': ('http://indy-plenum.readthedocs.io/en/%s' % version, None),
         'indy-hipe': ('http://indy-hipe.readthedocs.io/en/%s' % version, None),
     }
